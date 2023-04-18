@@ -90,7 +90,7 @@ describe("API Pact test", () => {
       // set up Pact interactions
       await provider.addInteraction({
         states: [{ description: "products exist" }],
-        uponReceiving: "get all products",
+        uponReceiving: "get all products with no auth",
         withRequest: {
           method: "GET",
           path: "/products",
