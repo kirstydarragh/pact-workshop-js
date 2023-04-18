@@ -131,7 +131,7 @@ describe("API Pact test", () => {
           },
           body: like({
             id: "10",
-            type: "CREDIT_CARDY",
+            type: "CREDIT_CARD",
             name: "28 Degrees",
           }),
         },
