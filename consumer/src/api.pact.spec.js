@@ -108,7 +108,7 @@ describe("API Pact test", () => {
           "Request failed with status code 401"
         );
       });
-    });    
+    });
   });
 
   describe("getting one product", () => {
@@ -131,7 +131,7 @@ describe("API Pact test", () => {
           },
           body: like({
             id: "10",
-            type: "CREDIT_CARD",
+            type: "CREDIT_CARDY",
             name: "28 Degrees",
           }),
         },
