@@ -2,7 +2,7 @@ class Product {
   constructor(id, type, name, version, tree) {
     this.id = id;
     this.type = type;
-    this.namex = name;
+    this.name = name;
     this.version = version;
     this.tree = tree;
   }
